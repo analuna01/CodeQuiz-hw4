@@ -19,3 +19,16 @@ body {
     max-width: 80%;
     padding:10px;
 }
+
+.btn {
+    background-color: lightgray;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
