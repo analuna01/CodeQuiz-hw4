@@ -17,13 +17,6 @@ function setTime(){
 
 setTime();
 
-
-
-
-
-
-
-
-
-//const startButton= document.getElementById("start-btn");
-//startButton.addEventListener ("click", startQuiz);
+// Start Button 
+var startButton = document.getElementById("start-btn");
+startButton.addEventListener ("click", startQuiz);

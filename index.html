@@ -2,41 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="style.css" rel="stylesheet">
-    <script defer src="script.js"></script>
     <title>Code Quiz</title>
 </head>
 <body>
-    <div class="container">
+    <div class="quiz-container">
         <header>
-            <h1>Code Quiz</h1>
+         <h1>Code Quiz</h1>
         </header>
+            <h2>Timer:</h2>
+            <div class="time", id="main"></div> 
 
-        <div class="quiz-container hide">
-            <div id="question">Question</div>
-                <div id="answers-btn">
-                    <ul>
-                        <li>
-                        <button class="btn">Answer1</button>
-                        </li>
-                        <li>
-                        <button class="btn">Answer2</button>
-                        </li>
-                        <li>
-                        <button class="btn">Answer3</button>
-                        </li>
-                        <li>
-                        <button class="btn">Answer4</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>        
-            <div class="control">
+        <div id="question">Question Number:<span id="question-count">0</span></div>
+            <div id="answers-btn">
+                <p>Question:</p>
+                 <ul>
+                    <li>
+                    <button class="btn">Answer1</button>
+                    </li>
+                    <li>
+                    <button class="btn">Answer2</button>
+                    </li>
+                    <li>
+                    <button class="btn">Answer3</button>
+                    </li>
+                    <li>
+                    <button class="btn">Answer4</button>
+                    </li>
+                </ul>
+            </div>
+                    
+            <div class="controls">
                 <button id="start-btn" class="start-btn btn">START</button>
                 <button id="submit-btn" class="submit-btn btn hide">Submit Answer</button>
             </div>
-        </div>
+        </div>    
+    </div>
+
+    
+    <script src="script.js"></script>
     
 </body>
 </html>

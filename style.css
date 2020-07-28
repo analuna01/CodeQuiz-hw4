@@ -13,22 +13,28 @@ body {
     align-items: center;
 }
 
-.container {
+.quiz-container {
     background-color: whitesmoke;
     width: 800px;
     max-width: 80%;
     padding:10px;
 }
 
+h2 {
+    text-align: center;
+}
 .btn {
     background-color: lightgray;
 }
 
-.control {
+.controls {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.hide {
-    display: none;
+.time {
+    display: flex;
+    justify-content: space-evenly;
+    
 }
+
