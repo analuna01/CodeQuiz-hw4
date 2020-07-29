@@ -12,4 +12,4 @@ The purpose of this assignment was to create a quiz with a variety of questions 
 
 ### Screenshot of Deployed App:
 
-<img src="CodeQuiz_DeployedApp.jpg">
+<img src="CodeQuiz_DeployedApp.jpg" width:500>
