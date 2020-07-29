@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="style.css" rel="stylesheet">
     <title>Code Quiz</title>
 </head>
+
 <body>
     <div class="quiz-container">
         <header>
-         <h1>Code Quiz</h1>
+            <h1>Geography Quiz</h1>
         </header>
-            <h2>Timer:</h2>
-            <div class="time", id="main"></div> 
+        <h2>Timer:</h2>
+        <div class="time" , id="main"></div>
 
-        <div id="question">Question Number:<span id="question-count">0</span></div>
-            <div id="answers-btn">
-                <p>Question:</p>
-                 <ul>
+        <div id="geoQuiz">
+            <p>Question Number:<span id="question-count">0</span>
+            <p id="quiz-questions ">Question:</p>
+            <div id="quiz-answers">
+                <!-- <ul id="quiz-answers">
                     <li>
                     <button class="btn">Answer1</button>
                     </li>
@@ -30,18 +33,18 @@
                     <li>
                     <button class="btn">Answer4</button>
                     </li>
-                </ul>
+                </ul> -->
             </div>
-                    
-            <div class="controls">
-                <button id="start-btn" class="start-btn btn">START</button>
-                <button id="submit-btn" class="submit-btn btn hide">Submit Answer</button>
-            </div>
-        </div>    
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start</button>
+            <button id="submit-btn">Get Results</button>
+            <div id="results"></div>
+        </div>
     </div>
 
-    
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
